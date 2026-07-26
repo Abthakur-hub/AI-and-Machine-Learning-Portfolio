@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+Car Price Predictor
+</title>
+
+<link rel="stylesheet"
+href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+🚗 Car Price Prediction
+</h1>
+
+
+<form action="/predict" method="POST">
+
+
+<input 
+name="year"
+placeholder="Car Year">
+
+
+<input 
+name="km"
+placeholder="KM Driven">
+
+
+<input 
+name="fuel"
+placeholder="Fuel (0/1)">
+
+
+<input 
+name="seller"
+placeholder="Seller Type">
+
+
+<input 
+name="transmission"
+placeholder="Transmission">
+
+
+<input 
+name="owner"
+placeholder="Owner">
+
+
+<input 
+name="engine"
+placeholder="Engine">
+
+
+<button>
+
+Predict Price
+
+</button>
+
+
+</form>
+
+
+
+<h2>
+
+{{prediction}}
+
+</h2>
+
+
+</div>
+
+
+</body>
+
+</html>

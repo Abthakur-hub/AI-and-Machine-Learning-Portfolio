@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adult Census Income Classification</title>
+</head>
+
+<body>
+
+<h1>Adult Census Income Classification</h1>
+
+<form action="/predict" method="POST">
+
+<input type="number" name="age" placeholder="Age" required><br><br>
+
+<input type="text" name="workclass" placeholder="Workclass" required><br><br>
+
+<input type="number" name="fnlwgt" placeholder="Final Weight" required><br><br>
+
+<input type="text" name="education" placeholder="Education" required><br><br>
+
+<input type="number" name="education_num" placeholder="Education Number" required><br><br>
+
+<input type="text" name="marital_status" placeholder="Marital Status" required><br><br>
+
+<input type="text" name="occupation" placeholder="Occupation" required><br><br>
+
+<input type="text" name="relationship" placeholder="Relationship" required><br><br>
+
+<input type="text" name="race" placeholder="Race" required><br><br>
+
+<input type="text" name="sex" placeholder="Sex" required><br><br>
+
+<input type="number" name="capital_gain" placeholder="Capital Gain" required><br><br>
+
+<input type="number" name="capital_loss" placeholder="Capital Loss" required><br><br>
+
+<input type="number" name="hours_per_week" placeholder="Hours Per Week" required><br><br>
+
+<input type="text" name="native_country" placeholder="Native Country" required><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+{% if prediction %}
+
+<h2>Predicted Income: {{ prediction }}</h2>
+
+{% endif %}
+
+</body>
+</html>

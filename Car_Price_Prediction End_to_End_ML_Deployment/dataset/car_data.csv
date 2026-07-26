@@ -1,0 +1,7 @@
+year,km_driven,fuel,seller_type,transmission,owner,engine,price
+2015,50000,Petrol,Dealer,Manual,First,1200,500000
+2016,60000,Diesel,Individual,Manual,Second,1500,600000
+2018,30000,Petrol,Dealer,Automatic,First,1400,900000
+2017,45000,Diesel,Dealer,Manual,First,1600,750000
+2019,20000,Petrol,Individual,Automatic,First,1200,1000000
+2020,15000,Diesel,Dealer,Manual,First,2000,1200000
