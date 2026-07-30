@@ -1,4 +1,4 @@
-q# AI and Machine Learning Projects
+# AI and Machine Learning Projects
 
 ## Student Information
 
