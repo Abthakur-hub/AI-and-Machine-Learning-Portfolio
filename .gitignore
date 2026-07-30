@@ -1,4 +1,21 @@
-**/venv/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+*/venv/
+
+# Environment variables
+.env
+*/.env
+
+# Vector databases
+chroma_db/
+*/chroma_db/
+
+# OS files
+.DS_Store**/venv/
 **/__pycache__/
 **/.ipynb_checkpoints/
 **/*.pyc

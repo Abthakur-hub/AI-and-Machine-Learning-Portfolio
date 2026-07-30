@@ -1,12 +1,13 @@
-.env
-
-venv/
-
 __pycache__/
 *.pyc
 
-chroma_db/
+venv/
+*/venv/
 
-.streamlit/
+.env
+*/.env
+
+chroma_db/
+*/chroma_db/
 
 .DS_Store
